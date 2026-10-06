@@ -10,14 +10,14 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Surname, First Name | | |
+| Aclan, Yancy | | |
 | Surname, First Name | | |
 
 ## Notebook links
 
 | Chapter | Member 1 | Member 2 |
 |---|---|---|
-| Ch1_2_3 | [link]() | [link]() |
+| Ch1_2_3 | [link](https://colab.research.google.com/drive/1wu4UyfOccsoE06wdYid6O66bpzKD4BW8?usp=drive_link) | [link]() |
 | Ch4 | [link]() | [link]() |
 | Ch5 | [link]() | [link]() |
 | Ch6 | [link]() | [link]() |
