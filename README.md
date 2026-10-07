@@ -27,9 +27,18 @@ Batangas State University, Alangilan Campus
 
 ## What we learned
 
+Chapter 1, 2, 3: Exploring and cleaning data
+
+This chapter taught us that data needs to be cleaned and organized before using it for machine learning. We learned that missing or messy data can affect the results. What surprised us was how small problems in the data can make a big difference in the final results.
+
+
+Chapter 4: Feature engineering and encoding
+
+This chapter taught us that we can create new features from existing data to understand it better. We learned that simple things like making ratios, grouping values, and combining information can show useful patterns. What surprised us was how we can get more meaning from the same data by changing the way we look at it.
+
 Chapter 5: Data Scaling
 
-This chapter taught us that data scaling is important when different features have very different numerical ranges. We learned that StandardScaler centers the data around 0 with a standard deviation of 1, while MinMaxScaler puts values between 0 and 1. What surprised us was that scaling does not change the actual relationship between the data, but it changes how the values are represented so that one feature does not dominate another just because it has bigger numbers like what happened in Grades and study hours, the machine value mores the "Grades" values than "Study_hours."
+This chapter taught us that scaling is important when different features have very different numbers. We learned that scaling makes the values more balanced so one feature does not get more attention just because it has bigger numbers. What surprised us was that scaling changes how the values are shown but does not change their actual relationship.
 
 Chapter 6: Dealing with Outliers
 
