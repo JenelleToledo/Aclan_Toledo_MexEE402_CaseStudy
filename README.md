@@ -10,7 +10,7 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Aclan, Yancy |1|MExE-4102|
+| Aclan, Yancy C. |1|MExE-4102|
 | Toledo, Jenelle |2|MExE-4102|
 
 ## Notebook links
