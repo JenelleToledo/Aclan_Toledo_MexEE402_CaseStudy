@@ -58,8 +58,9 @@ In Chapter 9, we learned how to apply the preprocessing techniques we have learn
 
 # 🐛 Errors We Found
 
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
+In Chapters 1–3, the main issues involved data types and redundant filtering. Using the mean to fill missing values in the Year column produced decimals instead of whole years, so the values should be rounded or replaced using the median and converted to integers. The Publisher filtering was also unnecessary after missing values had already been filled. In Chapter 4, the OrdinalEncoder used zero-based values (Little = 0, Medium = 1, Lots = 2), which did not match the written documentation stating 1, 2, 3. This can be fixed either by adding 1 to the encoded values or correcting the documentation.
+
+Chapter 5 had a minor formatting issue because two import statements were placed on one line. Chapter 6 had no functional code error, but its markdown incorrectly claimed that 100 was identified as a Z-score outlier even though its Z-score was below the cutoff of 3. Chapter 7 produced UndefinedMetricWarning warnings because 5-fold cross-validation was performed on only seven samples, and the filter method mistakenly included the target variable while identical features caused multicollinearity. Chapter 8 had no errors. In Chapter 9, discretizing Age in-place changed the original numeric data into categories, affecting later plots; the “After discretization” plot also referenced the wrong column, and the code did not actually remove PassengerId as stated.
 
 # 🤖 Note on AI Tools
 
